@@ -35,10 +35,10 @@ for i in range(50,100,5):
 
 # 5
 
-name = "gio bezhashvili"
+
 
 for i in range(13):
-    print(name)
+    print("giorgi bezhashvili")
 
 # 6
 num=20
@@ -51,7 +51,7 @@ while num <= 50:
 # 7
 
 
-for i in range(101):
+for i in range(100):
     print(i)
 
 
@@ -76,7 +76,7 @@ while i <= 100:
 # 9
 
 
-for i in range(10,21):
+for i in range(10,20):
     print(i)
 
 num = 10
@@ -89,7 +89,7 @@ while num <= 20:
 
 # 10
 
-for i in range(100,200,5):
+for i in range(100,201,5):
     print(i)
 
 num = 100
@@ -124,7 +124,7 @@ else:
 # 13
 
 
-age = input("შემოიყვანეთ თქვენი ასაკი:")
+age = int(input("შემოიყვანეთ თქვენი ასაკი:"))
 
 
 if age < 0:

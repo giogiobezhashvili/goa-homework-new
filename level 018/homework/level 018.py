@@ -65,3 +65,56 @@ while num <= 24 :
 
 
 
+for i in range(1, 101):
+    if  i % 3 == 0 and i % 5 == 0 :
+        print("FizzBuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
+    else:
+        print(i)
+
+
+for i in range(2, 201, 2):
+    if i == 152:
+        break
+    print(i)
+
+
+
+li=[2, 12, 30, 3, 37, 69, 67]
+maximum = li[0]
+
+for i in li :
+    if i > maximum:
+        maximum= i 
+
+print(maximum)
+
+
+
+
+text = "giorgi"
+count= 0
+
+for i in text:
+    if i.isupper():
+        count += 1
+
+print(count) 
+
+
+
+
+num = 100
+
+while num >= 1:
+    print(num)
+    num -= 1
+
+
+
+
+
+
