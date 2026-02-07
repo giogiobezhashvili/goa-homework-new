@@ -1,0 +1,27 @@
+.box {
+    color: white;              
+    background-color: green;  
+    text-align: center;       
+    font-size: 24px;          
+    padding: 20px;
+}
+
+p {
+    color: red;
+}
+
+/* 
+Descendant selector მუშაობს ისე, რომ ირჩევს 
+ელემენტს რომელიც მდებარეობს სხვა ელემენტის შიგნით
+*/
+
+
+
+
+
+
+
+
+
+
+
