@@ -1,0 +1,66 @@
+
+
+p {
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+
+.rgb-title {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 99, 71);
+  padding: 12px;
+  border-radius: 10px;
+  margin: 10px 0;
+  font-family: Arial, sans-serif;
+}
+
+
+#hex-one {
+  color: #ffffff;
+  background-color: #1e90ff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#hex-two {
+  color: #000000;
+  background-color: #ffd700;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#hex-three {
+  color: #ffffff;
+  background-color: #ff1493;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#hex-four {
+  color: #ffffff;
+  background-color: #2e8b57;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#hex-five {
+  color: #ffffff;
+  background-color: #8b4513;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 16px;
+}
+
+hr {
+  margin: 20px 0;
+}
