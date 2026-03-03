@@ -1,0 +1,27 @@
+body {
+  background-color: #F9F9F9;
+  font-family: Arial, sans-serif;
+  margin: 10px;
+}
+h1 {
+  text-transform: uppercase;
+  color: #2C3E50;
+  font-size: 36px;
+  text-align: center;
+
+}
+.book {
+  background-color: rgb(230, 230, 250);
+  margin: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+p {
+  font-size: 18px;
+  color: #34495E;
+}
+
+#h2a{
+    color:#E74C3C;
+}

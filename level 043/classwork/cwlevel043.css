@@ -1,0 +1,30 @@
+
+#p1 {
+  text-decoration: underline overline wavy red;
+}
+
+
+#p2 {
+  text-transform: uppercase;
+}
+
+
+#p3 {
+  text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+}
+
+
+#title {
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 4px blue;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+#custom-font {
+  font-family: 'Roboto';
+}
