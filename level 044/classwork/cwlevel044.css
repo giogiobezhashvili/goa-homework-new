@@ -1,0 +1,28 @@
+#a1:link {
+  color: blue;        
+  text-decoration: none;
+}
+
+#a2:visited {
+  color: purple;      
+  background-color: black;
+}
+
+
+#a3:hover {
+  color: red;        
+  text-decoration: underline;
+ background-color: aqua;
+
+}
+
+#a4:active {
+  color: orange;  
+  background-color: blue;
+}
+
+/*  :link → გამოიყენება იმ ბმულებზე, რომლებიც ჯერ არ არის გახსნილი.
+    :visited → გამოიყენება იმ ბმულებზე, რომლებიც უკვე გახსნილია.
+    :hover → გამოიყენება მაშინ, როცა მაუსის კურსორი გადადის ელემენტზე.
+    :active → გამოიყენება იმ მომენტში, როცა ელემენტზე ხდება დაჭერა
+ */

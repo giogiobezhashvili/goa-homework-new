@@ -1,0 +1,28 @@
+/* Pseudo selectors არის CSS-ში სპეციალური სელექტორები,
+რომლებიც ელემენტის კონკრეტულ მდგომარეობას ირჩევენ.
+მაგალითად როცა მაუსს მივიტანთ, დავაჭერთ ან უკვე გახსნილი გვაქვს ლინკი. */
+
+
+
+#facebook:link{
+    color:red;
+    background-color: black;
+    text-decoration: none;
+}
+
+
+#youtube:hover{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+
+#tiktok:visited{
+    color: lawngreen;
+    background-color: blue;
+}
+
+#instagram:active{
+    color: aqua;
+    
+}
