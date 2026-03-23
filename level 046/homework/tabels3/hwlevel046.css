@@ -1,0 +1,26 @@
+table{
+    border-collapse: collapse;
+    font-width: 500;
+}
+
+table thead tr{
+    background-color: rgb(1, 155, 122);
+    color: white;
+}
+
+
+table thead tr th{
+    width: 250;
+    text-align: left;
+}
+
+
+table thead tr:nth-child(1){
+    background-color: #DDDDDD;
+}
+
+table thead tr{
+    background-color: #FFFFFF;
+}
+
+

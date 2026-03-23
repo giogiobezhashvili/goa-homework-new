@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: start;
+    background-color: white;
+
+}
+div{
+    margin-top: 100px;
+    
+}
+input{
+    width: 400px;
+    height:25px;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 4px;
+    padding: 5px;
+    
+}
+input::placeholder{
+    color: rgb(0, 0, 0);
+}
+#message{
+    height: 100px;
+}
+
+#send{
+    border: none;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(0, 0, 149);
+    border-radius: 5px;
+    height: 34px;
+    width: 410px;
+}
