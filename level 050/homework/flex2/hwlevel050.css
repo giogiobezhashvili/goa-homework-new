@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#div1{
+    text-align: center;
+    
+}
+    
+
+#lideri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 220px;
+}
+
+#minilideri{
+    border: 3px dotted;
+    height: 300px;
+    width: 800px;
+    padding: 10px;
+}
+
+
+.moswavle{
+    height: 90px;
+    width: 775px;   
+    background-color: rgb(24, 130, 235);
+    flex-direction: row;
+    
+}
+
+

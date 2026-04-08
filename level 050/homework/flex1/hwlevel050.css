@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lideri{
+    text-align: center;
+    padding-top:20px ;
+}
+#moswavle{
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    align-items: center;
+    border: 3px dotted;
+    height: 90px;
+    width: 500px;
+    gap: 10px;
+    font-size: x-large;
+    border-radius: 4px;
+
+}
+
+#minilideri{
+    padding-top:20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#p1{
+    margin-right: 15px;
+}
+
+#p2{
+    margin-left: 15px;
+}
+
+
+#a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 130, 235);
+    color: rgb(255, 255, 255);
+    height: 70px;
+    width: 70px;
+}
+#b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 130, 235);
+    color: rgb(255, 255, 255);
+    height: 70px;
+    width: 70px;
+}
+#c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 130, 235);
+    color: rgb(255, 255, 255);
+    height: 70px;
+    width: 70px;
+}
