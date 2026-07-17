@@ -1,0 +1,43 @@
+/* 
+transform - გამოიყენება ელემანტის მდგომარეობის ცვლილებოსთვის და იგი გამოიყენება მარტივი ანიმაციებისთვის
+
+transform-ის მნიშვნელობები :
+
+-- translate --
+
+translate - იგი გადადგილებს ელემენტს (x;y) - ღერძებზე
+
+-- scale --
+
+scale - იგი ცვლის მის მაშტაბს 
+
+-- skew --
+
+skew - იგი ქმნის დახრილობას (___deg)
+ 
+-- rotate --
+
+rotatre - იგი შემოატრიალებს ელემენტს შესაბამის გრადუსით (___deg)
+
+*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#d1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid ;
+    
+}
+
+#d1:hover{
+    transform: translate(200px , 150px);
+    
+}
+
+

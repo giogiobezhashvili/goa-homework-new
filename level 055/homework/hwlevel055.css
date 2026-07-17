@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.perent{
+    height: 200px;
+    width: 800px;
+    border: 2px solid black;
+    display: flex;
+}
+
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+    border: 2px solid black;
+}
+
+
+
+#cil{
+    flex-grow: 1;
+}
+
+/* მან დაიკავი დარჩენილი ადგილი */

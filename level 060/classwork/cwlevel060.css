@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 60px;
+    padding: 50px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.translate{
+    transform:translate(50px, 20px)
+}
+.scale{
+    transform: scale(1.5);
+}
+
+.skew{
+    transform: skew(20deg,10deg);
+}
+
+.rotate{
+    transform: rotate(45deg);
+}

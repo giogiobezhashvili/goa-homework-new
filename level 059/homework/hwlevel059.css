@@ -1,0 +1,22 @@
+/* 
+    background-image- თვისება რომელითაც შეგვიძლია დავამატოთ უკანა ფონი
+    background-size-თვისება რომლითაც შეგვიძლია ვაკონტროლოთ განლაგება უკანა ფონის 
+    background-repeat- თვისება რომლითაც შეგვიძლია ვაკონტროლოთ გამეორება 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#con{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://www.piecesoftheocean.com/cdn/shop/files/cofefe.jpg?v=1727403562");
+    background-repeat: repeat-x;
+    background-size: contain;
+
+}
+

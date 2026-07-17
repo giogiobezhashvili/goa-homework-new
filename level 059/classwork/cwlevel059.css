@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+#div1{
+    height: 1000px;
+    width: 1000px;
+    background-image: url(./Screenshot\ 2025-10-16\ 003217.png);
+    background-size: 500px 500px;
+    background-repeat: repeat-y;
+}
+body{
+
+    background-image: url(./Screenshot\ 2025-12-26\ 235249.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div2{
+    background-image: url(./image.png);
+    background-size: 400px 300px;
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+}

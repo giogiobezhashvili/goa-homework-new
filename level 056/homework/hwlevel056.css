@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+
+
+#div2{
+    width: 20px;
+    height: 332px;
+    background-color: red;
+}
+
+
+#div1{
+    width: 400px;
+    height: 18px;
+    background-color: red;
+    position: absolute;
+    bottom: 579px;
+    left: 653px;
+}
+#div3{
+    width: 20px;
+    height: 332px;
+    background-color: red;
+}
+#div4{
+    width: 400px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    bottom: 265px;
+    left: 653px;
+}
+
+
+/* absolute - აძლევს პოზიციას საშვალებას ნულოვანი წერტილიდან  */
+/* relative - აძლევს პოზიციონირების საშვალებას */
+/* fixed - ამაგრაბს ელემენტს სქროლბარზე */
+/* sticky - ამაგრებს ელემენტს სქროლბართან როდესაც იგი მიაღწევს მას */
+/* static დეფაულტ მდგომარეობა რომელიც უკვე გადაცემული ავტომატურად და იგი საწყის წერტილში აბრუნებს ელემენტს*/
+
+
+ /* right გადადგილებს მარჯვნიდან  მარცხნივ*/
+ /* left გადადგილებს მარცხნიდან მარჯვნივ */
+ /* top გადადგილებს მაღლიდან დაბლა */
+ /* bottom გადადგილებს დაბლიდან მაღლა */
