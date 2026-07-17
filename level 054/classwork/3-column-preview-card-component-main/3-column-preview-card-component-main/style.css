@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+#perent{
+    width: 900px;
+    height: 470px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+.child{
+    width: 300px;
+    height: 420px;
+    padding: 50px;
+    
+}
+
+
+
+
+#child1{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#child2{
+    background-color: hsl(184, 100%, 22%);
+}
+#child3{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.pp{
+ font-size: 40px;
+ font-family: Big Shoulders;
+ margin-top: 20px;
+ color: hsl(0, 0%, 95%);
+}
+.ppp{
+    color: hsl(0, 0%, 95%);
+    font-family: Lexend Deca;
+    height: 200px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+button{
+    font-family: Lexend Deca;
+    height: 45px;
+    width: 120px;
+    margin-top: 40px;
+    border-radius: 50px;
+    border: none;
+}
+#b1{
+    color: hsl(31, 77%, 52%);
+}
+#b2{
+    color: hsl(184, 100%, 22%);
+}
+#b3{
+    color: hsl(179, 100%, 13%);
+}
+
+
+
+#b1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);;
+
+}
+#b2:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);;
+
+}
+#b3:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);;
+
+}

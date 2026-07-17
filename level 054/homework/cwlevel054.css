@@ -1,0 +1,16 @@
+/* vh-არის ზომის ერთეული პროგრემირებაში რომელიც ყოფს საიტს რამდენსაც გაუწერტ */
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+}
