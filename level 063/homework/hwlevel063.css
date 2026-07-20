@@ -1,0 +1,47 @@
+/* grid-ი არის განლაგბის ერთერთი სახეობა  css-ში*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#parent{
+    height: 500px;
+    width: 1050px;
+    display: grid;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-areas: "d a f"
+                         "e b c";
+    gap: 20px;
+}
+
+
+.minidiv{
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 20px;
+    font-size: 70px;
+}
+
+#a{
+    grid-area: a;
+}
+#b{
+    grid-area: b;
+}
+#c{
+    grid-area: c;
+}
+#d{
+    grid-area: d;
+}
+#e{
+    grid-area: e;
+}
+#f{
+    grid-area: f;
+}

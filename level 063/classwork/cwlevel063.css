@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#gg {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+  
+}
+
+.post {
+  background-color: #74C247;
+  border: 2px dashed rgb(0, 191, 255); 
+  height: 180px;
+  color: white;
+}

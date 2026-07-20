@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+#ball{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    margin-left: 20px;
+    transform: translateX(500px);
+    transition: 1s ease transform;
+}
