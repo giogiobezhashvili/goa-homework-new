@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    
+}
+
+.container{
+
+    height: 100%;
+    width: 90%;
+    border: 2px solid;
+    display: grid;
+    grid-template-areas: "div0 div1 div1 div2"
+                         "div0 div5 div4 div2"
+                         "div3 div5 div4 div2"
+                         "div3 div6 div7 div7"
+                         ;
+    grid-auto-rows: 400px 150px 150px 100px; 
+    grid-auto-columns: 400px;
+    gap: 20px;
+}
+#div0{
+    grid-area: div0;
+    border: 2px solid ;
+}
+#div1{
+    grid-area: div1;
+    border: 2px solid ;
+}
+#div2{
+    grid-area: div2;
+    border: 2px solid ;
+}
+#div3{
+    grid-area: div3;
+    border: 2px solid ;
+}
+#div4{
+    grid-area: div4;
+    border: 2px solid ;
+}
+#div5{
+    grid-area: div5;
+    border: 2px solid ;
+}
+#div6{
+    grid-area: div6;
+    border: 2px solid ;
+}
+#div7{
+    grid-area: div7;
+    border: 2px solid ;
+}
+
+
+
+
+
+
+
+

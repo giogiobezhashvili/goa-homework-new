@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.ball{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: blue;
+
+    animation-name: moveAndChange;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes moveAndChange {
+            0% {
+                transform: translateX(0);
+                background-color: blue;
+            }
+
+            50% {
+                transform: translateX(300px);
+                background-color: red;
+            }
+
+            100% {
+                transform: translateX(0);
+                background-color: blue;
+            }
+        }
