@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    height: 100vh;
+    background-color: rgb(0, 89, 255);
+}
+
+#animation{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(254, 228, 188);
+
+
+    animation: animation  2s infinite;
+}
+
+
+@keyframes animation {
+    100%{
+        transform: translateY(300px);
+    }
+}
