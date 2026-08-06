@@ -1,0 +1,24 @@
+#red{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    left: 500px;
+    top: 300px;
+}
+#blue{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    position: absolute;
+    left: 530px;
+    top: 330px;
+}
+#purple{
+    height: 150px;
+    width: 150px;
+    background-color: purple;
+    position: absolute;
+    left: 480px;
+    top: 350px;
+}

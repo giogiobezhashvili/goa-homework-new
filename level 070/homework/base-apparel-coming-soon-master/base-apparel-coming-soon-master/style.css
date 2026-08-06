@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    font-family: Josefin Sans;
+}
+#per{
+    width: 70%;
+    height: 100%;
+    padding-left: 15%;
+    padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    background: linear-gradient(to bottom, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    
+}
+#logo{
+    height: 33px;
+    width: 158px;
+}
+#child{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#h1{
+    font-size: 90px;
+    width: 600px;
+}
+span{
+    color: hsl(0, 36%, 70%);
+    font-weight: 200;
+}
+#h3{
+    width: 600px;
+    font-size: 22px;
+    color: hsl(0, 36%, 70%);
+}
+#email{
+    display: flex;
+}
+#emil{
+    width: 50%;
+    height: 55px;
+    border-radius: 50px 0px 0px 50px;
+    border: 1px solid hsl(0, 9%, 68%);
+    background: transparent;
+    
+}
+button{
+    width: 14%;
+    border-radius: 50px;
+    background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: relative;
+    right: 40px;
+    
+}
+input::placeholder{
+    padding-left: 30px;
+    color: hsl(0, 36%, 70%);
+    font-size: 16px;
+}
+#mim{
+    display: none;
+}
+
+
+
+
+@media (max-width:376px) {
+    body{
+        width: 100%;
+        display: block;
+    }
+    #dim{
+        display: none;
+    }
+    #mim{
+        display: block;
+        height: 250px;
+        width: 100%;
+        background-image: url(./images/hero-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #logo{
+        height: 25px;
+        width: 118px;
+    }
+    #logo2{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    
+    #per{
+        padding: 0px;
+        width: 100%;
+        display: flex;
+        gap: 4%;
+    }
+    #child{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    #h1{
+        font-size: 50px;
+        text-align: center;
+        width: 100%;
+    }
+
+    #h3{
+        text-align: center;
+        width: 100%;
+        font-size: 15px;
+        padding: 20px;
+    }
+    #email{
+        width: 100%;
+        display: flex;
+        padding-left: 20px;
+    }
+    #emil{
+        width: 100%;
+    }
+    button{
+        width: 25%;
+    }
+
+
+}
